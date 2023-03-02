@@ -1,0 +1,21 @@
+# Jekyll Resume Theme
+
+## Version 0.0.1
+
+### ADDED 
+
+- Main page
+- Blog page
+- Post page
+- Page layouts
+- Gemfile
+- Dockerfile
+- .gemspec
+- CONTRIBUTING Docs
+- CHANGELOG
+- feed.xml
+- sitemap.xml
+
+### FIXED 
+
+- URLs changed from `{{site.url}}{{site.baseurl}}/blog` to use absolute URLs (`{{ '/blog | absolute_url }}`)

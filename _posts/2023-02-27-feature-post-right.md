@@ -4,11 +4,9 @@ title      : "Right Feature Post Example!"
 summary    : "I am just setting up feature posts so give it some time. For now the syntax in the template head is how you change the posts images and ID."
 fid        : 20
 author     : yosileyid
-date       : 2023-02-26 11:35:02 -0500
+date       : 2023-02-26
 categories : jekyll
 tags       : jekyll, bootstrap, blog
-thumbnail  : /assets/imgs/posts/thumbnails/jekyll.png
-featured_image: /assets/imgs/hero/header.jpg
 ---
 
 

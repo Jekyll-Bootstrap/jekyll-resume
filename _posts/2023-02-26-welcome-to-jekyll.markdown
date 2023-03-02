@@ -3,7 +3,7 @@ layout     : post
 title      : "Welcome to Jekyll!"
 fid        : 40
 author     : yosileyid
-date       : 2023-02-26 11:35:02 -0500
+date       : 2023-02-26
 category   : jekyll
 tags       : jekyll
 ---

@@ -4,11 +4,9 @@ title         : "This Is The Hero Title On The Front Page!"
 summary       : "This summary is only for displaying in feature posts. You can change it in the header of the post to display whatever text you like. Careful not to be too wordy tho..."
 fid           : 30
 author        : yosileyid
-date          : "2023-02-27"
+date          : 2023-02-27
 categories    : jekyll
 tags          : jekyll, blog, bootstrap
-thumbnail     : /assets/imgs/posts/thumbnails/newspaper.jpg
-featured_image: /assets/imgs/hero/newspaper.jpg
 ---
 
 
