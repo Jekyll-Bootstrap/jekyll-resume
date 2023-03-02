@@ -15,17 +15,18 @@
       </div>
       <p class="lead mb-5">{{ site.author.bio }}</p>
       <div class="social-icons">
-          <a class="social-icon" href="#!">
-            <i class="fab fa-linkedin-in"></i></a>
-          <a class="social-icon" href="https://github.com/{{site.author.github_org}}" target="_blank">
-            <i class="fab fa-github"></i></a>
-          <a class="social-icon" href="https://twitter.com/{{site.author.twitter}}" target="_blank">
-            <i class="fab fa-twitter"></i></a>
-          <a class="social-icon" href="#!">
-            <i class="fab fa-facebook-f"></i></a>
-          <a class="social-icon" href="https://dev.to/{{site.author.dev_to}}" target="_blank">
-            <i class="fa-brands fa-dev"></i>
-          </a>
+        <a class="social-icon" href="{{ '/feed.xml' | absolute_url }}">
+          <i class="fa-solid fa-rss"></i></a>
+        <a class="social-icon" href="#!">
+          <i class="fab fa-linkedin-in"></i></a>
+        <a class="social-icon" href="https://github.com/{{site.author.github_org}}" target="_blank">
+          <i class="fab fa-github"></i></a>
+        <a class="social-icon" href="https://twitter.com/{{site.author.twitter}}" target="_blank">
+          <i class="fab fa-twitter"></i></a>
+        <a class="social-icon" href="#!">
+          <i class="fab fa-facebook-f"></i></a>
+        <a class="social-icon" href="https://dev.to/{{site.author.dev_to}}" target="_blank">
+          <i class="fa-brands fa-dev"></i></a>
       </div>
   </div>
 </section>

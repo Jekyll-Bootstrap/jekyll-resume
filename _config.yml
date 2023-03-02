@@ -53,7 +53,7 @@ baseurl       : "jekyll-resume"
 # issues in links.
 #
 # Use localhost for local development
-# http://localhost:4000
+# http://localhost:4000/
 
 
 url           : "https://jekyll-bootstrap.github.io/"
