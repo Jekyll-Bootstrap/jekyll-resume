@@ -1,0 +1,31 @@
+<section class="resume-section" id="about">
+  <div class="resume-section-content">
+      <h1 class="mb-0">
+          Yosi
+          <span class="text-primary">Leyid</span>
+      </h1>
+      <h3 class="mb-0">
+        <span class="text-primary">{{site.author.company}}</span>
+      </h3>
+      <div class="subheading mb-5">
+        {{ site.author.location.street }} · 
+        {{ site.author.location.city_st }} {{ site.author.location.zip }} · 
+        {{site.author.phone}} ·
+          <a href="mailto:name@email.com">{{site.author.email}}</a>
+      </div>
+      <p class="lead mb-5">{{ site.author.bio }}</p>
+      <div class="social-icons">
+          <a class="social-icon" href="#!">
+            <i class="fab fa-linkedin-in"></i></a>
+          <a class="social-icon" href="https://github.com/{{site.author.github_org}}" target="_blank">
+            <i class="fab fa-github"></i></a>
+          <a class="social-icon" href="https://twitter.com/{{site.author.twitter}}" target="_blank">
+            <i class="fab fa-twitter"></i></a>
+          <a class="social-icon" href="#!">
+            <i class="fab fa-facebook-f"></i></a>
+          <a class="social-icon" href="https://dev.to/{{site.author.dev_to}}" target="_blank">
+            <i class="fa-brands fa-dev"></i>
+          </a>
+      </div>
+  </div>
+</section>

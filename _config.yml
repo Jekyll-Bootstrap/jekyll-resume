@@ -1,0 +1,169 @@
+# repository : jekyll-bootstrap/jekyll-newspaper
+
+github     : [metadata]
+
+# This is a "Resume" blog theme written for Jekyll users in Bootstrap v5.03
+# we create themes and plugins professionally, but we also have free themes we
+# offer to the community. Feel free to edit any of the links and usernames below
+# and add your own. This will be expanding to include more features as I have
+# time. Feel free to contribute by joining my server and discussing how to get
+# involved.
+#
+# If you need any help feel free to reach out on discord or email me and I will
+# help in any way you need. If you want a custom theme or plugin built you can 
+# hop on discord and we can discuss it.
+#
+# Discord: https://discord.gg/KpGXAEnVnv
+# ==========================================================
+#
+# TITLE
+#
+# This is the title of your "Newspaper" for example, "The Moo York Times" :)
+
+title: Resume - Bootstrap v5.3
+
+description: >- # this means to ignore newlines until "baseurl:"
+  This is a Bootstrap "Resume" theme with a blog written for Jekyll users. It is a work in progress and I am adding more features to it. Feel free to download it and use it as a theme for your site. Any questions you have can be answered on the Discord server linked in the "Social Links" below. 
+
+# BASEURL
+#
+# This is the subpath of your site, e.g. /blog
+# if you want users to access your site at https://example.com/blog
+# if you are using a gh-pages site this will be 
+# empty if your site is on https://username.github.io
+# if your repo using this theme is named "foobar"
+# then change this to /foobar and when you serve
+# it using the pages setting it will be live at
+# https://username.github.io/foobar 
+# 
+# I have blog posts on my site explaining these
+# processes in more detail to help you. If you
+# get stuck feel free to reach out.
+#
+#  Use "/" for local development
+
+baseurl: "" #       : "/jekyll-newspaper"
+
+# URL
+#
+# This is the base hostname & protocol for your site, 
+# as you see I use https://yosileyid.github.io because this
+# is a template and served live on my gh-pages site.
+#
+# You should change this to your sitename or there will be 
+# issues in links.
+#
+# Use localhost for local development
+# http://localhost:4000
+
+
+url: "http://localhost:4000/" #            : "https://jekyll-bootstrap.github.io"
+
+# SOCIAL 
+#
+# This section handles your social network links displayed for now
+# in the Social Links section on the front page. I will add more
+# as I recieve user feedback on the theme.
+
+author:
+  name             : Yosi Leyid
+  company          : Hasidic Development Group
+  email            : yosi@hasidic.dev
+  phone            : 555 555-5555
+  profile_img      : https://avatars.githubusercontent.com/u/14003326
+  location         : 
+    street         : 123 Main St
+    city_st        : Queens, NY
+    zip            : 10011
+  twitter          : hasidicdevs
+  github           : yosileyid
+  github_org       : jekyll-bootstrap
+  dev_to           : yosileyid
+  linkedin         : 
+  facebook         : 
+  discord          : 
+    username       : hasidic.dev#0613
+    add_user       : https://discordapp.com/user/hasidic.dev#0613
+  bio: I am experienced in leveraging agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition.
+
+# SECTIONS
+# ========
+#
+# EXPERIENCE
+
+experience:
+  - job: Senior Web Developer
+    date: March 2013 - Present
+    company: Intelitec Solutions
+    description: Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from generation X is on the runway heading towards a streamlined cloud solution. User generated content in real-time will have multiple touchpoints for offshoring.
+    
+  - job: Web Developer
+    date: December 2011 - March 2013
+    company: Intelitec Solutions
+    description: Capitalize on low hanging fruit to identify a ballpark value added activity to beta test. Override the digital divide with additional clickthroughs from DevOps. Nanotechnology immersion along the information highway will close the loop on focusing solely on the bottom line.
+    
+  - job: Junior Web Designer
+    date: July 2010 - December 2011
+    company: Shout! Media Productions
+    description: Podcasting operational change management inside of workflows to establish a framework. Taking seamless key performance indicators offline to maximise the long tail. Keeping your eye on the ball while performing a deep dive on the start-up mentality to derive convergence on cross-platform integration.
+    
+  - job: Web Design Intern
+    date: September 2008 - June 2010
+    company: Shout! Media Productions
+    description: Collaboratively administrate empowered markets via plug-and-play networks. Dynamically procrastinate B2C users after installed base benefits. Dramatically visualize customer directed convergence without revolutionary ROI.
+
+# EDUCATION
+# =========
+
+education:
+  - school: UNIVERSITY OF COLORADO BOULDER
+    degree: BACHELOR OF SCIENCE
+    course: Computer Science - Web Development Track
+    gpa   : 3.23
+  - school: JAMES BUCHANAN HIGH SCHOOL
+    degree: TECHNOLOGY MAGNET PROGRAM
+    course: 
+    gpa   : 3.55
+
+# INTERESTS
+# =========
+
+interests:
+  - first: Apart from being a web developer, I enjoy most of my time being outdoors. In the winter, I am an avid skier and novice ice climber. During the warmer months here in Colorado, I enjoy mountain biking, free climbing, and kayaking.
+  - second: When forced indoors, I follow a number of sci-fi and fantasy genre movies and television shows, I am an aspiring chef, and I spend a large amount of my free time exploring the latest technology advancements in the front-end web development world.
+
+# AWARDS
+# ======
+
+awards:
+  - name: Google Analytics Certified Developer
+  - name: Mobile Web Specialist - Google Certification 
+  - name: University of Colorado Boulder - Emerging Tech Competition 2009
+  - name: University of Colorado Boulder - Emerging Tech Competition 2008 
+  - name: University of Colorado Boulder - Adobe Creative Jam 2008 (UI Design Category)
+  - name: James Buchanan High School - Hackathon 2006
+  - name: James Buchanan High School - Hackathon 2005 
+
+# EXCERPT_SEPARATOR
+#
+# This is used in your blog posts, you can see an example in any 
+# of the example blog posts included in this theme. It functions
+# to trim your posts when displaying them so it doesnt show the
+# entire post like on the front page. Feel free to change where
+# the excerpt ends.
+
+excerpt_separator: <!--more-->
+
+# Build settings
+#
+# These are build settings needed for when you run "jekyll serve"
+# commands. You can change these, but be careful because they can
+# cause your site to break.
+
+plugins:
+  - jekyll-feed
+
+collections:
+  categories:
+    output: true
+    permalink: /:categories/:title/

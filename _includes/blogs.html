@@ -1,0 +1,10 @@
+<section class="resume-section" id="blog">
+  <div class="resume-section-content">
+      <h2 class="mb-5">Latest Posts From Blog</h2>
+      {% for post in site.posts limit:3 %}
+      <h4><a href="{{ post.url | absolute_url }}">{{post.title}}</a></h4>
+      <p><small>{{post.excerpt}}</small></p>
+      {% endfor %}
+      <p><a href="/blog" class="btn btn-primary btn-sm">View All Posts</a></p>
+  </div>
+</section>
