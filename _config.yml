@@ -1,5 +1,4 @@
-# repository : jekyll-bootstrap/jekyll-newspaper
-
+repository : jekyll-bootstrap/jekyll-resume
 github     : [metadata]
 
 # This is a "Resume" blog theme written for Jekyll users in Bootstrap v5.03
@@ -42,7 +41,7 @@ description: >- # this means to ignore newlines until "baseurl:"
 #
 #  Use "/" for local development
 
-baseurl: "" #       : "/jekyll-newspaper"
+baseurl       : "jekyll-resume"
 
 # URL
 #
@@ -57,7 +56,7 @@ baseurl: "" #       : "/jekyll-newspaper"
 # http://localhost:4000
 
 
-url: "http://localhost:4000/" #            : "https://jekyll-bootstrap.github.io"
+url           : "https://jekyll-bootstrap.github.io/"
 
 # SOCIAL 
 #
